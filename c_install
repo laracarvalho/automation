@@ -1,0 +1,1 @@
+choco install googlechrome firefox vlc irfanview nvidia-display-driver qbittorrent 7zip choco treesizefree winrar nvm vscode dropbox git.install python javaruntime jdk8 php composer go putty.install winscp filezilla streamlabs-obs geforce-experience k-litecodecpackfull jackett obsidian rabbitmq postgres bloomrpc make -y
