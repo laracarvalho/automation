@@ -13,19 +13,21 @@ Since I want to divide some programs based on which harddrive I have, the files 
 - Go to repo location;
 - Run `.\chocolatey_install`;
 - Run `.\c_install`;
-- Run `.\d_install`;
+
 
 ## Steps:
 - Install Node with `nvm install latest` && `nvm use (latest_version)`;
-- Change default terminal (VS Code) to git bash;
+- VS Code Settings Sync;
 - Install WSL2 with `wsl --install`;
   - Create account;
   - Run `sudo apt update && sudo apt upgrade`;
   - Install Make inside WSL2 with `sudo apt install gcc build-essential make -y`; 
 - Install Docker through the [website](https://docs.docker.com/desktop/windows/install/);
+- Open Jackett to update qBit listings;
 
 **Not available as chocolatey package:** Postman
 
 ## TODO:
 - Automatize Docker installation;
 - Automatize WSL2 and Make;
+- `d_install` not updated;
