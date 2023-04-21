@@ -25,8 +25,6 @@ Since I want to divide some programs based on which harddrive I have, the files 
 - Install Docker through the [website](https://docs.docker.com/desktop/windows/install/);
 - Open Jackett to update qBit listings;
 
-**Not available as chocolatey package:** Postman
-
 ## TODO:
 - Automatize Docker installation;
 - Automatize WSL2 and Make;
