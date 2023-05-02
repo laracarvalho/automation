@@ -8,12 +8,17 @@ I install chocolatey separately for troubleshooting.
 
 Since I want to divide some programs based on which harddrive I have, the files are separated as well.
 
+
+## Allow scripts in Powershell:
+- Open PowerShell as Administrator;
+- Add `set-executionpolicy unrestricted`;
+- Check with `get-executionpolicy`;
+
 ## Installation:
 - Open PowerShell as Administrator;
 - Go to repo location;
 - Run `.\chocolatey_install`;
 - Run `.\c_install`;
-
 
 ## Steps:
 - Install Node with `nvm install latest` && `nvm use (latest_version)`;
