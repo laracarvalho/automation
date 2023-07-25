@@ -1,1 +1,1 @@
-choco install foxitreader libreoffice-fresh discord zoom telegram spotify steam-client goggalaxy epicgameslauncher ccleaner vortex calibre handbrake -ia 'INSTALLDIR=""D:\Program Files""' -y
+choco install foxitreader libreoffice-fresh discord goggalaxy epicgameslauncher vortex calibre handbrake -ia 'INSTALLDIR=""D:\Program Files""' -y

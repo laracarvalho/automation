@@ -1,4 +1,4 @@
-# Environment automatization for Windows 10
+# Automation
 
 Almost every program and runtime I need everytime I format my computer is in these files.
 
@@ -19,6 +19,7 @@ Since I want to divide some programs based on which harddrive I have, the files 
 - Go to repo location;
 - Run `.\chocolatey_install`;
 - Run `.\c_install`;
+- If needed, run `\.d_install`;
 
 ## Steps:
 - Install Node with `nvm install latest` && `nvm use (latest_version)`;
@@ -30,7 +31,10 @@ Since I want to divide some programs based on which harddrive I have, the files 
 - Install Docker through the [website](https://docs.docker.com/desktop/windows/install/);
 - Open Jackett to update qBit listings;
 
+## Configs:
+- Grab .dotfiles and drop them into `~`
+
 ## TODO:
 - Automatize Docker installation;
 - Automatize WSL2 and Make;
-- `d_install` not updated;
+- Generate config for games (modlist, etc)
