@@ -38,3 +38,4 @@ Since I want to divide some programs based on which harddrive I have, the files 
 - Automatize Docker installation;
 - Automatize WSL2 and Make;
 - Generate config for games (modlist, etc)
+- Update to Ansible automation for both Ubuntu and Win11
